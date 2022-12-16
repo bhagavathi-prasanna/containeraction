@@ -1,0 +1,16 @@
+name: 'my first container action'
+description 'A cloud guru'
+author: 'Prasanna kumari'
+
+inputs:
+  myinput:
+    description: 'good afternoon'
+    required: true
+    default: 'Awesome guru'
+outputs:
+  myOutput:
+     description: 'total memory'
+runs:
+   using: 'docker'
+   image: 'Dockerfile'
+   
